@@ -26,7 +26,7 @@ conference:
   title_pre: ""
   title: "laravelday Digital Edition"
   city: "online"
-  date: 2021-04-15T10:00+02:00
+  date: 2021-09-23T10:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -51,13 +51,13 @@ conference:
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "Call For Papers aperta!"
-  cfp_deadline: 2021-01-31T23:59+01:00
+  cfp_deadline: 2021-07-31T22:59+01:00
   cfp_register_label: "Invia la tua proposta"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "laravelday è la conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.<br>Nata come track del jsday e dallo stesso team di Kerning, laravelday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.<br> laravelday 2021 si svolge online."
+  geninfo_description: "laravelday è la conferenza italiana dedicata a uno dei framework più utilizzati per php, uno strumento molto potente, che ha portato molta innovazione nell'ambiente. Con la sua prima edizione nel 2017, laravelday vuole dare una panoramica su questa tecnologia e su tutto il suo ecosistema. laravelday 2021 si svolge online."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -96,12 +96,14 @@ conference:
   topics_title: "Argomenti e temi"
   topics_description: "Parleremo di..."
   topics:
-    - "CSS"
-    - "UX"
-    - "Accessibilità"
+    - "Best practice e Clean Code"
+    - "Architetture"
+    - "Performance optimization"
     - "Testing"
-    - "Design"
+    - "Sicurezza"
     - "Metodologie"
+    - "Pipeline e Deploy"
+    - "Servizi e integrazioni"    
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: true
@@ -119,11 +121,11 @@ conference:
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: true
-  youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
+  youtube_base_url: "https://www.youtube.com/watch?v="
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unnzawdRcS0h5O6if5f8mtCc"
+  youtube_playlist_id: "UALxTYn6tB4&list=PLWK9j6ps_unnugTZAx-d6-xOR0jS2gvuI"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italianlaravelday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden

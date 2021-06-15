@@ -1,13 +1,13 @@
 intro:
   main_title: "Welcome"
-  content_1: "I CSS sono uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web. Nato come track del jsday e dallo stesso team organizzativo di Kerning, il cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere."
+  content_1: "Laravel è un framework che quest'anno compie 10 anni e si è guadagnato meritatamente un posto al vertice tra i framework php; il suo punto di forza sono la produttività e la documentazione da sempre fiore all'occhiello."
   content_2: "L'obiettivo dell'evento è consentire alla community di incontrarsi e condividere esperienze divertendosi e facendo rete in un contesto piacevole."
 # this is the global "read more" label
 readmore_label: "Leggi tutto" 
 # these are the title and descriptions of the 6 blocks
 info_about:
   title: "About"
-  content: "GrUSP ed il team dietro al cssday"
+  content: "GrUSP ed il team dietro al laravelDay"
 info_coc:
   title: "COC"
   content: "Regole di comportamento"
