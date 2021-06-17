@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Compra il biglietto"
-  buy_tickets_url: "https://www.eventbrite.com/e/biglietti-laravelday-2021-130900796807"
+  buy_tickets_url: "https://laravelday-2021.eventbrite.it"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -24,9 +24,9 @@ conference:
   contact_email: "laravelday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "laravelday Digital Edition"
+  title: "laravelday @127.0.0.1"
   city: "online"
-  date: 2021-09-23T10:00+02:00
+  date: 2021-09-24T09:30+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -67,11 +67,11 @@ conference:
   newsletter_subtitle: "Iscriviti alla nostra newsletter"
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
-    php: false
+    php: true
     javascript: false
-    design: true
+    design: false
     devops: false
-    frontend: true
+    frontend: false
     ruby: false
     entrepreneurship: false
     local_events: false
@@ -106,7 +106,7 @@ conference:
     - "Servizi e integrazioni"    
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
@@ -118,7 +118,7 @@ conference:
   media_pic_3: ""
   media_pic_4: ""
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: true
+  media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/watch?v="
@@ -149,7 +149,7 @@ conference:
   social_fb_url: "https://www.facebook.com/laravelday"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
   social_twitter_url: "https://twitter.com/laraveldayit"
-  social_vimeo_url: "https://vimeo.com/channels/italianlaravelday"
+  social_vimeo_url: "https://vimeo.com/channels/laravelday"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
   # 404
@@ -159,8 +159,6 @@ conference:
   base_url: "laravelday.it/"
   past_editions_pre: "Passate edizioni della conferenza:"
   past_editions:
-    2015: "2015"
-    2016: "2016"
     2017: "2017"
     2018: "2018"
     2019: "2019"
