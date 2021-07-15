@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2021.laravelday.it/workshop/workshop_2.html</loc>
+    <loc>https://2021.laravelday.it/welcome/about.html</loc>
     
     <lastmod>2021-07-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2021.laravelday.it/workshop/font_variabili.html</loc>
+    <loc>https://2021.laravelday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2021-07-15</lastmod>
     
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://2021.laravelday.it/welcome/about.html</loc>
+    <loc>https://2021.laravelday.it/workshop/font_variabili.html</loc>
     
     <lastmod>2021-07-15</lastmod>
     
@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://2021.laravelday.it/404.html</loc>
+    <loc>https://2021.laravelday.it/2019/08/19/test/</loc>
     
     <lastmod>2021-07-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2021.laravelday.it/2019/08/19/test/</loc>
+    <loc>https://2021.laravelday.it/404.html</loc>
     
     <lastmod>2021-07-15</lastmod>
     
