@@ -128,9 +128,15 @@ block content
                   - start_time = date(talk.start_datetime, config.time_format_schedule)
                   - end_time = date(talk.end_datetime, config.time_format_schedule)
                   .info__date
-                    time(datetime=talk.start_datetime, config.time_format_schedule) !{start_time}
+                    time(datetime=talk.start_datetime) !{start_time}
                     | &nbsp;-&nbsp;
-                    time(talk.end_datetime, config.time_format_schedule) !{end_time}
+                    time(datetime=talk.end_datetime) !{end_time}
+
+                  if(no_days > 1)
+                    - curr_day = date(talk.start_datetime, config.date_format_extended)
+                    .info-icon.padded
+                      include ../source/assets/ico/ico-calendar.svg
+                    .info__date !{curr_day}
 
               //- the key to the talk will be user as the ID of the anchor: same in secondary menu below
               - schedule_url = url_for("schedule") + "#" + key
