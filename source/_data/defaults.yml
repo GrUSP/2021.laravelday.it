@@ -35,7 +35,7 @@ conference:
   countdown_minutes: "minuti"
   countdown_seconds: "secondi"
   ticket_button_visible: true
-  hero_buy_tickets_label: "Assicurati un posto"
+  hero_buy_tickets_label: "Registrati gratuitamente"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
@@ -57,14 +57,15 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "laravelday è la conferenza italiana dedicata a uno dei framework più utilizzati per php, uno strumento molto potente, che ha portato molta innovazione nell'ambiente. Con la sua prima edizione nel 2017, laravelday vuole dare una panoramica su questa tecnologia e su tutto il suo ecosistema. laravelday 2021 si svolge online."
+  geninfo_description: "laravelday è la conferenza italiana dedicata a uno dei framework più utilizzati per PHP, uno strumento molto potente, che ha portato molta innovazione nell'ambiente. <br> Organizzata ogni anno a partire dal 2017, laravelday vuole dare una panoramica su questa tecnologia e su tutto il suo ecosistema, e permettere alla community di developer laravel di incontrarsi e condividere esperienze e buone pratiche.
+  <br> <br />L'edizione 2021 di laravelday si svolge online, nel formato '@localhost': un evento di una mattina, gratuito, in italiano."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
   geninfo_tickets_label: "Biglietti"
   # this is for the Newsletter block
   newsletter_title: "Ricevi gli aggiornamenti"
-  newsletter_subtitle: "Iscriviti alla nostra newsletter"
+  newsletter_subtitle: "Iscriviti alla newsletter GrUSP"
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
     php: true
@@ -103,7 +104,7 @@ conference:
     - "Sicurezza"
     - "Metodologie"
     - "Pipeline e Deploy"
-    - "Servizi e integrazioni"    
+    - "Servizi e integrazioni"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -125,7 +126,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "UALxTYn6tB4&list=PLWK9j6ps_unnugTZAx-d6-xOR0jS2gvuI"
+  youtube_playlist_id: "PLWK9j6ps_unlUA29Q1b25A-UYo_QiPeec"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italianlaravelday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden

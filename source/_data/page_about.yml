@@ -1,23 +1,23 @@
 intro:
   main_title: "About"
   content_1:
-    "Il laravelday è orgogliosamente organizzato da GrUSP. <br> 
-     GrUSP è una community fondata nel 2003 come PHP User Group, che è diventata il punto di riferimento in Italia per le buone pratiche in tutti i campi dello sviluppo web.<br>  
+    "Il laravelday è orgogliosamente organizzato da GrUSP. <br>
+     GrUSP è una community fondata nel 2003 come PHP User Group, che è diventata il punto di riferimento in Italia per le buone pratiche in tutti i campi dello sviluppo web.<br>
      Da allora abbiamo organizzato moltissime conferenze, perseguendo sempre l'obiettivo di creare opportunità per le persone di incontrarsi, imparare, condividere e crescere insieme."
-  content_2: 
-    "GrUSP è un'organizzazione no-profit il cui obiettivo è migliorare l'ecosistema italiano di sviluppo web. <br> 
-    Organizziamo eventi e workshop di alta qualità per developer, e promuoviamo la creazione di User Group locali (PUG), aiutandoli nelle loro attività.<br> 
-    La diversità e l'inclusione sono sempre state al centro delle nostre attività. 
+  content_2:
+    "GrUSP è un'organizzazione no-profit il cui obiettivo è migliorare l'ecosistema italiano di sviluppo web. <br>
+    Organizziamo eventi e workshop di alta qualità per developer, e promuoviamo la creazione di User Group locali (PUG), aiutandoli nelle loro attività.<br>
+    La diversità e l'inclusione sono sempre state al centro delle nostre attività.
     Applichiamo un codice di condotta da molti anni e abbiamo programmi di borse di studio (scholarships) per ciascuna delle nostre conferenze."
 more:
   title: "laravelday"
-  content_1: 
-    "Laravel è un framework che quest'anno compie 10 anni e si è guadagnato meritatamente un posto al vertice tra i framework php; il suo punto di forza sono la produttività e la documentazione da sempre fiore all'occhiello.<br> 
+  content_1:
+    "Laravel è un framework che quest'anno compie 10 anni e si è guadagnato meritatamente un posto al vertice tra i framework php; il suo punto di forza sono la produttività e la documentazione da sempre fiore all'occhiello.<br>
      L'obiettivo dell'evento è consentire alla community di incontrarsi e condividere esperienze divertendosi e facendo rete in un contesto piacevole."
   content_2:
 past_edition:
   title: "Guarda le passate edizioni della conferenza"
-  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unnzawdRcS0h5O6if5f8mtCc"
+  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unlUA29Q1b25A-UYo_QiPeec"
   video_caption: "Guarda i video dell'ultima edizione"
 team:
   title: "Il team"
@@ -29,7 +29,7 @@ team:
       pic_filename: "fullo.jpg"
     member_2:
       name: "Giulia Tosato"
-      role: "boss in charge"
+      role: "event management"
       pic_filename: "giulia.jpg"
     member_3:
       name: "Alessandro Cappellozza"
@@ -41,5 +41,5 @@ team:
       pic_filename: "giovanna.jpg"
     member_5:
       name: "Michela Bertaina"
-      role: "Community management"
+      role: "community management"
       pic_filename: "michela.png"

@@ -3,17 +3,17 @@ intro:
   content_1: "Laravel è un framework che quest'anno compie 10 anni e si è guadagnato meritatamente un posto al vertice tra i framework php; il suo punto di forza sono la produttività e la documentazione da sempre fiore all'occhiello."
   content_2: "L'obiettivo dell'evento è consentire alla community di incontrarsi e condividere esperienze divertendosi e facendo rete in un contesto piacevole."
 # this is the global "read more" label
-readmore_label: "Leggi tutto" 
+readmore_label: "Leggi tutto"
 # these are the title and descriptions of the 6 blocks
 info_about:
   title: "About"
-  content: "GrUSP ed il team dietro al laravelDay"
+  content: "GrUSP ed il team di laravelday"
 info_coc:
   title: "COC"
   content: "Regole di comportamento"
 info_scholarships:
   title: "Scholarships"
-  content: "Come richiedere un biglietto gratuito"
+  content: "Come richiedere un biglietto gratuito per le conferenze GrUSP"
 info_cfp:
   title: "CFP"
   content: "Presenta un talk"
