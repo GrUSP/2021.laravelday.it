@@ -4,38 +4,60 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &regular_speaker
+speaker_1: &roberto
   speaker_in_speaker_lists: true
-  speaker_name: Luca Guidi
-  speaker_pic_filename: lucaguidi.png
-  speaker_role: Author of Hanami
-  speaker_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And however, enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  speaker_github_url: "https://github.com/jodosha"
-  speaker_twitter_url: "https://twitter.com/jodosha"
-speaker_2: &keynote_speaker
+  speaker_name: Roberto Gallea
+  speaker_pic_filename: roberto-gallea.png
+  speaker_role: Student Office Administrator @ unipa
+  speaker_bio: "Ph.D. in Computer Science, Sviluppatore Web e Data Scientist. Appassionato di tecnologie digitali applicate a svariati campi, come machine learning, elettronica, computer vision e digital performing arts. Funzionario presso l'Università degli Studi di Palermo."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/robgallea"
+speaker_2: &mauro
   speaker_in_speaker_lists: true
-  speaker_name: Keynote Speaker
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-speaker_3: &mc
+  speaker_name: Mauro Gallo
+  speaker_pic_filename: mauro-gallo.png
+  speaker_role: Internet of Things Specialist @ Ing.Polin e C. S.p.A.
+  speaker_bio: "'reboot yourself' è il mio motto. Reinventarsi nelle proprie passioni in questo mondo che corre sempre più veloce è fondamentale. Attualmente seguo il progetto IOT e cloud per l'azienda per cui lavoro. Se posso amo programmare."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+speaker_3: &filippo
   speaker_in_speaker_lists: true
-  speaker_name: MC
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
+  speaker_name: Filippo Galante
+  speaker_pic_filename: filippo-galante.png
+  speaker_role: Senior software engineer @ Jobtech
+  speaker_bio: "Sono un appassionato di Laravel sin dalla versione 4.2 e ho trasformato questa mia passione in un lavoro a tempo pieno in diverse realtà. Negli ultimi anni ho sviluppato applicazioni di ogni genere con questo framework e ad oggi ho quattro progetti attivi e alcuni package pubblici e privati. Ad oggi lavoro in Jobtech, una startup milanese il cui obiettivo è rivoluzionare il mondo del lavoro digitalizzando tutti i processi tipici di una APL."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+speaker_4: &leonardo
+  speaker_in_speaker_lists: true
+  speaker_name: Leonardo Rossi
+  speaker_pic_filename: leonardo-rossi.png
+  speaker_role: Senior Software Engineer @ NearForm
+  speaker_bio: "Sono uno sviluppatore appasionato di sport e crescita personale"
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/leorossi"
+speaker_5: &alessandro
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Cappellozza
+  speaker_pic_filename: alessandro.jpg
+  speaker_role: "MASTER OF CEREMONIES - Team Leader @ Seneca"
+  speaker_bio: ""
   is_mc: true
+
+# per pubblicare speaker in home
+
+speakers:
+  speaker_1: *roberto
+  speaker_2: *mauro
+  speaker_3: *filippo
+  speaker_4: *leonardo
+  speaker_5: *alessandro
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -47,134 +69,77 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2021-09-24T08:45+02:00
     title: "Day 1"
     talks:
-      talk_1:
+    # service
+      opening:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        start_datetime: 2021-09-24T08:45+02:00
+        end_datetime: 2021-09-24T09:00+02:00
+        talk_title: "Welcome from GrUSP"
+      closing:
         item_type: "service"
-        start_datetime: 2020-09-16T09:30
-        end_datetime: 2020-09-16T09:45
-        talk_title: "GrUSP presentation"
-      talk_3:
-        item_type: "keynote"
-        start_datetime: 2020-09-16T09:45
-        end_datetime: 2020-09-16T10:00
-        talk_title: "Keynote title (optional)"
-        talk_description: "Keynote description (optional)"
-        speakers:
-          speaker_1: *keynote_speaker
-      talk_4:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_5:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_6:
+        start_datetime: 2021-09-24T13:00+02:00
+        end_datetime: 2021-09-24T13:10+02:00
+        talk_title: "Saluti dal GrUSP"
+      coffee-morning:
         item_type: "service"
-        start_datetime: 2020-09-16T10:45
-        end_datetime: 2020-09-16T11:00
+        start_datetime: 2021-09-24T11:00+02:00
+        end_datetime: 2021-09-24T11:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-      talk_7:
-        item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_8:
-        item_type: "workshop"
-        track: *track_3
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "Workshop title (optional)"
-        talk_description: "Workshop description (optional) very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long "
-        speakers:
-          speaker_1: *regular_speaker
-      talk_9:
+      # coffee-afternoon:
+      #   item_type: "service"
+      #   start_datetime: 2021-09-24T16:15+02:00
+      #   end_datetime: 2021-09-24T16:45+02:00
+      #   talk_title: "Coffee break"
+      #   service_icon: "coffee"
+      # lunch:
+      #   item_type: "service"
+      #   start_datetime: 2021-09-24T13:30+02:00
+      #   end_datetime: 2021-09-24T14:30+02:00
+      #   talk_title: "Pausa pranzo"
+      #   service_icon: "cutlery"
+
+    # talk
+      roberto:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #1"
-        talk_description: "test per rowspan"
+        start_datetime: 2021-09-24T09:00+02:00
+        end_datetime: 2021-09-24T10:00+02:00
+        talk_title: "Papà, come nascono i Service Container?"
+        talk_description: "Sin da subito, chi si approccia all'utilizzo di Laravel o altri framework, impara ad utilizzare le sue funzionalità di Service Container. Ma cos'è esattamente e com'è fatto un Service Container? Scoprire come realizzarne uno è il miglior modo per imparare ad usarlo al meglio ed in modo consapevole."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-      talk_10:
+          speaker_1: *roberto
+      mauro:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: "This is a talk in track 2"
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
+        track: *track_1
+        start_datetime: 2021-09-24T10:00+02:00
+        end_datetime: 2021-09-24T11:00+02:00
+        talk_title: "Pillole digeribili di sicurezza"
+        talk_description: "Buone pratiche, package, idee e suggerimenti per mettere in sicurezza il proprio applicativo a livello strutturale e cercare di dormire più tranquilli."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-      talk_11:
-        item_type: "service"
-        start_datetime: 2020-09-16T13:00
-        end_datetime: 2020-09-16T14:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      talk_12:
+          speaker_1: *mauro
+      filippo:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #2"
-        talk_description: "test per rowspan"
+        track: *track_1
+        start_datetime: 2021-09-24T11:15+02:00
+        end_datetime: 2021-09-24T12:15+02:00
+        talk_title: "CI / CD, the Jobtech way"
+        talk_description: "Il mio case study prende spunto dalla vita di tutti i giorni di noi backend developer in Jobtech. A paritre dall'ambiente di sviluppo locale fino al deploy in produzione del codice delle nostre 4 applicazioni core."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-
-  # day_2:
-  #   date: 2020-09-17T09:00
-  #   title: "Day 2"
-  #   talks:
-  #     talk_1:
-  #       item_type: "service"
-  #       start_datetime: 2020-09-16T09:00
-  #       end_datetime: 2020-09-16T09:30
-  #       talk_title: "Welcome Coffee"
-  #       service_icon: "coffee"
-  #     talk_2:
-  #       track: *track_1
-  #       item_type: "talk"
-  #       start_datetime: 2020-09-17T09:30
-  #       end_datetime: 2020-09-17T10:45
-  #       talk_title: "This is a talk at the beginning of the second day"
-  #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  #       talk_video_url:
-  #       speakers:
-  #         speaker_1: *regular_speaker
-  #     talk_3:
-  #       track: *track_2
-  #       item_type: "talk"
-  #       start_datetime: 2020-09-17T09:30
-  #       end_datetime: 2020-09-17T10:45
-  #       talk_title: "This is a talk in the second day, track 2"
-  #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  #       talk_video_url:
-  #       speakers:
-  #         speaker_1: *regular_speaker
+          speaker_1: *filippo
+      leonardo:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-24T12:15+02:00
+        end_datetime: 2021-09-24T13:00+02:00
+        talk_title: "Blade Deep Dive"
+        talk_description: "Come funziona Laravel Blade? Vediamo come sfruttare al massimo le sue potenzialità"
+      #   talk_video_url:
+        speakers:
+          speaker_1: *leonardo
