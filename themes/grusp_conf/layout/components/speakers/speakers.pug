@@ -12,9 +12,9 @@ section(id="hero__speakers").section_nopadding
         - no_of_mcs++
       else
         - no_of_speakers++
-    if no_of_speakers > 1
+    if no_of_speakers > 1 && config.language === 'en'
       - suffix = "s"
-    if no_of_mcs > 1
+    if no_of_mcs > 1 && config.language === 'en'
       - mcs_suffix = "s"
     .columns
       .column.inner

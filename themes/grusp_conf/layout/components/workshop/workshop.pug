@@ -3,7 +3,7 @@ section(id="workshop").section_nopadding
   - suffix = ""
   each workshop in site.data.workshop.workshops
     - no_of_workshops++
-  if no_of_workshops > 1
+  if no_of_workshops > 1 && config.language === 'en'
     - suffix = "s"
 
   .container
