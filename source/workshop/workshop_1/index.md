@@ -1,10 +1,10 @@
 ---
-title: Tipografia web e font variabili
+title: "Applicazioni complesse con Laravel: architetture package-based"
 date: 2020-04-21 09:27:00
 layout: workshop_single
-ws_id: font_variabili
-path: workshop/font_variabili
-permalink: workshop/font_variabili
+ws_id: architetture-package-based
+path: workshop/architetture-package-based
+permalink: workshop/architetture-package-based
 # Used to generate breadcrumbs
 parent: workshop
 ---
