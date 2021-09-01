@@ -11,11 +11,11 @@ menu:
   # scommentare per generare pagina
   schedule: schedule
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-   font_variabili: Tipografia web e font variabili
+   architetture-package-based: "Applicazioni complesse con Laravel: architetture package-based"
 #   workshop_2: sample second workshop
 
 # welcome submenu

@@ -1,4 +1,4 @@
-sponsors_block_title: ""
+sponsors_block_title: "Grazie a"
 # main:
 #  sponsor1:
 #    name: ""
@@ -24,11 +24,11 @@ sponsors_block_title: ""
 #    name: ""
 #    logo_filename: ""
 #    site_url: ""
-#bronze:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+bronze:
+  sponsor1:
+    name: "Roberto Gallea"
+    logo_filename: "RobertoGallea.png"
+    site_url: "https://www.robertogallea.com"
 #  sponsor2:
 #    name: ""
 #    logo_filename: ""
