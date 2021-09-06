@@ -25,14 +25,14 @@ sponsors_block_title: "Grazie a"
 #    logo_filename: ""
 #    site_url: ""
 bronze:
+  sponsor2:
+    name: "nearform"
+    logo_filename: "nearform.png"
+    site_url: "https://nearform.com"
   sponsor1:
     name: "Roberto Gallea"
     logo_filename: "RobertoGallea.png"
     site_url: "https://www.robertogallea.com"
-#  sponsor2:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
 #  sponsor3:
 #    name: ""
 #    logo_filename: ""
