@@ -25,11 +25,15 @@ sponsors_block_title: "Grazie a"
 #    logo_filename: ""
 #    site_url: ""
 bronze:
+  sponsor1:
+    name: "jobtech"
+    logo_filename: "jobtech.svg"
+    site_url: "https://jobtech.it/"
   sponsor2:
     name: "nearform"
     logo_filename: "nearform.png"
     site_url: "https://nearform.com"
-  sponsor1:
+  sponsor3:
     name: "Roberto Gallea"
     logo_filename: "RobertoGallea.png"
     site_url: "https://www.robertogallea.com"
