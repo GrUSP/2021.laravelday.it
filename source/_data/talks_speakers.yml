@@ -43,6 +43,13 @@ speaker_5: &alessandro
   speaker_role: "MASTER OF CEREMONIES - Team Leader @ Seneca"
   speaker_bio: ""
   is_mc: true
+speaker_6: &giuseppe
+  speaker_in_speaker_lists: true
+  speaker_name: Giuseppe Morelli
+  speaker_pic_filename: giuseppe-morelli.jpeg
+  speaker_role: ""
+  speaker_bio: "Programmatore PHP dal 2006 specializzato nella progettazione e sviluppo di e-commerce dal 2010. Dopo circa 10 anni di sviluppo e-commerce con Magento, dal 2020 cambia radicalmente scelta per passare a Sylius e Shopware. Il backend è la sua passione e Laravel è suo amico. Solo in caso di necessità diventa un DevOps. Originario dell'Umbria, dal 2013 vive nella splendida Romagna."
+
 
 # per pubblicare speaker in home
 
@@ -51,7 +58,8 @@ speakers:
   speaker_2: *mauro
   speaker_3: *filippo
   speaker_4: *leonardo
-  speaker_5: *alessandro
+  speaker_5: *giuseppe
+  speaker_6: *alessandro
 
 tracks:
   track_1: &track_1
@@ -143,3 +151,17 @@ days:
       #   talk_video_url:
         speakers:
           speaker_1: *leonardo
+      meetup:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-24T14:30+02:00
+        end_datetime: 2021-09-24T15:00+02:00
+        talk_title: "MEETUP LARAVEL ITALIA: Laravel come utility per il tuo Shopify"
+        talk_description: "La community Laravel Italia si ritrova per un Meetup, ospitato su Hopin in occasione di laravelday. Sarà l'occasione per incontrarci e chiacchierare, chi vuole può partecipare in video-call.
+          Con Giuseppe Morelli parleremo di 'Laravel come utility per il tuo Shopify'. Forse non tutti sanno che Shopify essendo un Saas non mette a disposizione codice e spazio server per poterlo personalizzare.
+          Quello di cui hai bisogno è uno o più software esterni che interagiscano tramite API.
+          Perchè non scegliere il nostro caro Laravel?
+          Vedremo insieme come un semplice progetto con soli command, possa essere il tuo centro di controllo."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *giuseppe
