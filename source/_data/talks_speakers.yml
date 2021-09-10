@@ -47,7 +47,7 @@ speaker_6: &giuseppe
   speaker_in_speaker_lists: true
   speaker_name: Giuseppe Morelli
   speaker_pic_filename: giuseppe-morelli.jpeg
-  speaker_role: ""
+  speaker_role: "eCommerce Backend Developer Freelance"
   speaker_bio: "Programmatore PHP dal 2006 specializzato nella progettazione e sviluppo di e-commerce dal 2010. Dopo circa 10 anni di sviluppo e-commerce con Magento, dal 2020 cambia radicalmente scelta per passare a Sylius e Shopware. Il backend è la sua passione e Laravel è suo amico. Solo in caso di necessità diventa un DevOps. Originario dell'Umbria, dal 2013 vive nella splendida Romagna."
 
 
